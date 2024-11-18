@@ -8,8 +8,8 @@ namespace WebApp1.Models
 
         public int ErrorId { get; set; }
 
-        public string ErrorDescription { get; set; }
+        public string? ErrorDescription { get; set; }
 
-        public string ErrorMessage { get; set; }
+        public string? ErrorMessage { get; set; }
     }
 }
