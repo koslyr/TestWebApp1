@@ -17,6 +17,10 @@ namespace WebApp1.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Index action
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
             return View();
